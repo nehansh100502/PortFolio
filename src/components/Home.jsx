@@ -1,11 +1,11 @@
 import React from "react";
 
-import pic from "../../public/photo.avif";
+import pic from "../../public/neha012.jpg";
 
-import { FaSquareFacebook } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
-import { FaTelegram } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
+import { FaDiscord, FaLinkedin } from "react-icons/fa";
+// import { IoLogoYoutube } from "react-icons/io";
+// import { FaTelegram } from "react-icons/fa6";
 
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -24,12 +24,12 @@ function Home() {
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
             <span className="text-xl">Welcome In My Feed</span>
-            <div className="flex space-x-1 text-2xl md:text-4xl">
+            <div className="flex space-x-1 text-2xl md:text-3xl">
               <h1>Hello, I'm a</h1>
               {/* <span >Developer</span> */}
               <ReactTyped
                 className="text-red-700 font-bold"
-                strings={["Developer", "Programmer", "Coder"]}
+                strings={["Developer", "Coder"]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
@@ -37,11 +37,11 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+            Welcome to my Portfolo, I am a passionate Full Stack Developer and Web Developer 
+            with a knack for crafting seamless user experiences and robust backend systems.
+            With expertise in a diverse array of technologies and a commitment to 
+            continuous learning,I strive to deliver top-notch solutions tailored to meet 
+            the unique needs of each project.
             </p>
             <br />
             {/* social media icons */}
@@ -50,25 +50,30 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <FaSquareFacebook className="text-2xl cursor-pointer" />
+                    <a href="https://twitter.com/nehasingh3155" target="_blank">
+                      <FaTwitter className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/neha-singh-193589290/" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
+                    <a href="https://discord.com/channels" target="_blank">
+                      <FaDiscord className="text-2xl cursor-pointer" />
+                    </a>
+                  </li>
+                  {/* <li>
                     <a href="https://www.youtube.com/" target="_blank">
                       <IoLogoYoutube className="text-2xl cursor-pointer" />
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a href="https://t.me/" target="_blank">
                       <FaTelegram className="text-2xl cursor-pointer" />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className=" space-y-2">
@@ -85,7 +90,7 @@ function Home() {
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
             <img
               src={pic}
-              className="rounded-full md:w-[450px] md:h-[450px]"
+              className="rounded-full md:w-[600px] md:h-[400px]"
               alt=""
             />
           </div>
