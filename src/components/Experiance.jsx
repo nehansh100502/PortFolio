@@ -3,52 +3,55 @@ import MongoDB from "../../public/mongodb.jpg";
 import html from "../../public/html.png";
 import css from "../../public/css.png";
 import javascript from "../../public/javascript.png";
-import node from "../../public/node.png";
-import express from "../../public/express.png";
+import node from "../../public/githubicon.jpeg";
+import express from "../../public/reacticon.png";
 import tailwind from "../../public/tailwind.jpg";
 import postman from "../../public/postman.png";
 
 function Experiance() {
   const cardItem = [
     {
-      id: 1,
-      logo: MongoDB,
-      name: "MongoDB",
+      id: 3,
+      logo: html,
+      name: "HTML",
     },
     {
       id: 2,
       logo: css,
       name: "CSS",
     },
-    {
-      id: 3,
-      logo: html,
-      name: "HTML",
-    },
+    
     {
       id: 4,
       logo: javascript,
       name: "JavaScript",
     },
-    {
-      id: 5,
-      logo: node,
-      name: "Node.js",
-    },
+   
     {
       id: 6,
       logo: express,
-      name: "Express.js",
+      name: "React.js",
     },
+
     {
       id: 7,
       logo: tailwind,
       name: "Tailwind",
     },
     {
+      id: 5,
+      logo: node,
+      name: "GitHub",
+    },
+    {
       id: 8,
       logo: postman,
       name: "Postman",
+    },
+    {
+      id: 1,
+      logo: MongoDB,
+      name: "MongoDB",
     },
   ];
   return (

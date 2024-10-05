@@ -9,20 +9,23 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I'm Neha Singh, a passionate  
+          Hello, I'm Neha Singh, a passionate   
           <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-600 relative inline-block ">
-          <span className=" relative text-white"> Web Developer </span>
+          <span className=" relative text-white"> Frontend Developer </span>
           </span>  with a keen eye for 
-          <span className="underline decoration-sky-500 hover:underline-offset-4"> MERN Stack</span> and
-         <span className="underline hover:underline-offset-4"> Full Stack Developer</span>. With a background in IT, I strive to create impactful and
+          <span className="underline decoration-sky-500 hover:underline-offset-4"> React Developer</span> and
+         <span className="underline hover:underline-offset-4"> Frontend Developer</span>. With a background in IT, I strive to create impactful and
           visually stunning Software solutions that leave a lasting impression.
+          <br/>
+          Enhanced the UI design by implementing Tailwind CSS utility classes, significantly reducing CSS development time and maintaining consistency
+           across the application.
         </p>
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
           Education & Training
         </h1>
         <span>
-          BCA (Bachelor In Computer Applications), C.V.Raman University, 2023-2025
+          BCA (Bachelor In Computer Applications), C.V.Raman University, 2022-2025
           <br/>
           <br/>
           Intermediate,
@@ -34,7 +37,7 @@ function About() {
           Skills & Expertise
         </h1>
         <span>
-          Proficient in HTML5, CSS, JavaScript, React.js, Node.js, Express.js, Tailwind Experienced with (Visual Studio Code, Github, Git, MongoDB Compass, React DevTools, and npm) Strong grasp of responsive design, DOM manipulation, and fundamental programming concepts
+          Proficient in HTML5, CSS, JavaScript, React.js, Tailwind Experienced with (Visual Studio Code, Github, Git, MongoDB Compass, React DevTools, and npm) Strong grasp of responsive design, DOM manipulation, and fundamental programming concepts
           Excellent problem-solving skills Effective communicator and
           collaborator.
         </span>
@@ -43,19 +46,16 @@ function About() {
         <h1 className="text-green-600 font-semibold text-xl">
           Professional Experience
         </h1>
-        <span>Intern, As Full Stack Developer (3 Month Internship)<br/>
+        <p>Intern, As Full Stack Developer (4 Month Internship)<br/>
           From Uflex Technologies<br/>
           Making a  huge Project on ATA (Athlete Academy)<br/>
-          Skill Uses  : React.js, Node.js, Express.js, MongoDB, Postman etc.
-
-        </span>
-        {/* <span>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
-        </span> */}
+          Skill Uses  : React.js, Node.js, Express.js, MongoDB Campass, Postman etc.
+        </p>
+        <p className="pt-9">
+          Full Stack Developer, Zoopiceye opticals private limited, May 2023 to present 
+          Making a  huge Project on Zoopiceye (Zoopiceye opticals Private limited)<br/>
+          Skill Uses  : React.js, Node.js, Express.js, MongoDB Campass, Postman etc.
+        </p>
         <br />
         <br />
         {/* <h1 className="text-green-600 font-semibold text-xl">

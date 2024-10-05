@@ -5,38 +5,40 @@ import mongoDB from "../../public/mongodb.jpg";
 import express from "../../public/express.png";
 import reactjs from "../../public/reactjs.png";
 import nodejs from "../../public/node.png";
+import { Link } from "react-scroll";
+import { FaGithub } from "react-icons/fa6";
 function PortFolio() {
   const cardItem = [
-    {
-      id: 1,
-      logo: mongoDB,
-      name: "MongoDB",
-    },
-    {
-      id: 2,
-      logo: express,
-      name: "Express",
-    },
-    {
-      id: 3,
-      logo: reactjs,
-      name: "ReactJS",
-    },
-    {
-      id: 4,
-      logo: nodejs,
-      name: "NodeJS",
-    },
-    {
-      id: 5,
-      logo: python,
-      name: "Python",
-    },
-    {
-      id: 6,
-      logo: java,
-      name: "Java",
-    },
+    // {
+    //   id: 1,
+    //   logo: mongoDB,
+    //   name: "MongoDB",
+    // },
+    // {
+    //   id: 2,
+    //   logo: express,
+    //   name: "Express",
+    // },
+    // {
+    //   id: 3,
+    //   logo: reactjs,
+    //   name: "ReactJS",
+    // },
+    // {
+    //   id: 4,
+    //   logo: nodejs,
+    //   name: "NodeJS",
+    // },
+    // {
+    //   id: 5,
+    //   logo: python,
+    //   name: "Python",
+    // },
+    // {
+    //   id: 6,
+    //   logo: java,
+    //   name: "Java",
+    // },
   ];
   return (
     <div
@@ -47,6 +49,12 @@ function PortFolio() {
         <h1 className="text-3xl font-bold mb-5">PortFolio</h1>
         <span className=" underline font-semibold">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
+
+          <a href="https://github.com/nehansh100502/zoopiceye-web" target="_blank" className="text-[blue]">
+            <FaGithub className="text-2xl cursor-pointer" />
+            GitHub Link
+          </a>
+
           {cardItem.map(({ id, logo, name }) => (
             <div
               className="md:w-[200px] md:h-[200px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
